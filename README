@@ -1,0 +1,17 @@
+#Ganesanu Gigi Florin 324CA
+
+    In aceasta tema am plecat de la scheletul laboratorului 10 in mare
+parte. Am mai adaugat o functie in requests.c, cea de delete si in 
+client.c mi am facut o bucla infina in care am deschis conexiunea serverului
+si de fiecare citesc de la tastatura o comanda. Daca comanda este register
+adica imi creez un cont , creez mesajul de tip aplicatie/json si trimit
+raspunsul. Mai departe daca primesc login introduc un username si o pass
+apoi daca aceasta merge primesc un cookie pe care il salvez in array ul de
+cookies si maresc numarul. In enter_library preiau raspunsul adica tokenul 
+il salvez si il trimit ca un cod de acces pentru biblioteca. Get_books imi
+afiseaza lista de carti . Get_book imi cere id ul de la cartea pe care 
+vreau sa o vad si mi-o afiseaza. Add_book adauga o carte noua in biblioteca
+de tipul aplicatie json. Delete book imi sterge o carte din bilbioteca dupa
+id ul. Logout imi iese din cont si sterge toate datele salvate anterior(cookies)
+Iar functia exit opreste programul. Afisarea mesajelor o realizez cu sprintf, 
+am folosit "\" pentru a escapa acoladele.
